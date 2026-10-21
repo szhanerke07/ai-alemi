@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="10-сынып оқушыларына арналған жасанды интеллект туралы оқу сайты">
+  <title>AI әлемі — Жасанды интеллектті таны</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="AI әлемі басты беті"><span class="brand-mark">AI</span><span>әлемі<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Мәзірді ашу" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#basics">ЖИ негіздері</a>
+      <a href="#systems">Компьютерлік жүйелер</a>
+      <a href="#safety">Қауіпсіздік</a>
+      <a href="#quiz">Тест</a>
+      <a href="#tools">ЖИ құралдары</a>
+    </nav>
+    <a class="header-cta" href="#basics">Зерттеуді бастау <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> 10-СЫНЫП · ИНФОРМАТИКА</div>
+        <h1>AI әлеміне<br>қош <span class="gradient-text">келдің!</span></h1>
+        <p class="hero-lead">Жасанды интеллекттің мүмкіндіктерін зертте, оның компьютерлік жүйелермен байланысын түсін және цифрлық технологияларды қауіпсіз пайдалануды үйрен.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#basics">ЖИ-ді зерттеу <span>→</span></a>
+          <a class="btn btn-ghost" href="#quiz">Тест тапсыру <span>↗</span></a>
+        </div>
+        <div class="hero-note"><span class="note-icon">✓</span> Түсінікті материалдар · Мысалдар · Интерактивті тест</div>
+      </div>
+      <div class="hero-art" aria-label="Жасанды интеллект тақырыбындағы сәндік иллюстрация">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="ai-core"><span>AI</span><small>INTELLIGENCE</small></div>
+        <div class="float-chip chip-one"><span>⌘</span> Алгоритм</div>
+        <div class="float-chip chip-two"><span>◈</span> Деректер</div>
+        <div class="float-chip chip-three"><span>✳</span> Үйрену</div>
+        <div class="art-caption">БІЛІМ · ТЕХНОЛОГИЯ · ЖАУАПКЕРШІЛІК</div>
+      </div>
+      <div class="hero-bottom">
+        <a href="#basics" class="topic-pill"><span class="pill-icon purple">✳</span><span><b>ЖИ негіздері</b><small>Ұғымдар мен мысалдар</small></span><span class="pill-arrow">↗</span></a>
+        <a href="#systems" class="topic-pill"><span class="pill-icon blue">▦</span><span><b>Компьютерлік жүйелер</b><small>CPU, GPU және RAM</small></span><span class="pill-arrow">↗</span></a>
+        <a href="#safety" class="topic-pill"><span class="pill-icon green">◇</span><span><b>Қауіпсіздік</b><small>Саналы әрі дұрыс қолдану</small></span><span class="pill-arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section-wrap content-section" id="basics">
+      <div class="section-heading">
+        <div><div class="eyebrow">01 / НЕГІЗГІ ТҮСІНІК</div><h2>Жасанды интеллект <span class="gradient-text">дегеніміз не?</span></h2></div>
+        <p>ЖИ-ді түсіну үшін алдымен оның не істейтінін және қалай үйренетінін қарастырайық.</p>
+      </div>
+      <div class="definition-panel">
+        <div class="definition-symbol">✳</div>
+        <div><h3>Қарапайым тілмен айтқанда</h3><p><b>Жасанды интеллект (ЖИ)</b> — мәтінді түсіну, суретті тану, үлгілерді табу, болжам жасау немесе мазмұн құрастыру сияқты міндеттерді орындауға арналған компьютерлік жүйелердің мүмкіндіктері.</p><p class="muted">ЖИ адам сияқты сезінеді немесе бәрін біледі дегенді білдірмейді. Ол деректер мен үйретілген модельдерге сүйеніп нәтиже жасайды.</p></div>
+      </div>
+      <div class="three-cards">
+        <article class="info-card"><div class="card-icon lilac">01</div><h3>Деректер</h3><p>Модельдер мәтін, сурет, дыбыс және басқа деректерден заңдылықтарды үйрене алады.</p></article>
+        <article class="info-card"><div class="card-icon sky">02</div><h3>Модель</h3><p>Үйретілген модель кіріс ақпаратын өңдеп, тапсырмаға сай нәтиже ұсынады.</p></article>
+        <article class="info-card"><div class="card-icon mint">03</div><h3>Нәтиже</h3><p>Нәтиже жауап, аударма, ұсыныс, болжам немесе жасалған сурет болуы мүмкін.</p></article>
+      </div>
+      <div class="split-grid">
+        <div class="subpanel"><h3>ЖИ мен дәстүрлі бағдарламаның айырмашылығы</h3><p>Дәстүрлі бағдарлама көбіне алдын ала жазылған ережелерді орындайды. Машиналық оқыту жүйесі мысалдардан заңдылықтарды үйреніп, соларға сүйеніп болжам немесе нәтиже жасай алады.</p><div class="compare-line"><span class="compare-label">Дәстүрлі бағдарлама</span><span class="compare-track"><i style="width:88%"></i></span></div><div class="compare-line"><span class="compare-label">Машиналық оқыту</span><span class="compare-track violet"><i style="width:72%"></i></span></div><small class="muted">Сызба түсіндіру үшін берілген, нақты өнімділік өлшемі емес.</small></div>
+        <div class="subpanel example-panel"><div class="example-badge">КҮНДЕЛІКТІ ӨМІРДЕН</div><h3>Сен қолданатын ЖИ мысалдары</h3><ul class="check-list"><li>Телефондағы бет-әлпетті тану</li><li>Музыка мен видео ұсынымдары</li><li>Дауысты мәтінге айналдыру</li><li>Мәтінді аудару және чат-боттар</li><li>Фотодағы нысандарды анықтау</li></ul></div>
+      </div>
+    </section>
+
+    <section class="dark-section" id="systems">
+      <div class="section-wrap content-section">
+        <div class="section-heading light-heading">
+          <div><div class="eyebrow">02 / ИНФОРМАТИКАМЕН БАЙЛАНЫСЫ</div><h2>ЖИ және <span class="gradient-text">компьютерлік жүйелер</span></h2></div>
+          <p>Бағдарламалар мен модельдер физикалық құрылғыларда жұмыс істейді. Әр компоненттің өз міндеті бар.</p>
+        </div>
+        <div class="hardware-grid">
+          <article class="hardware-card"><div class="hardware-symbol cpu">CPU</div><div class="hardware-tag">ОРТАЛЫҚ ПРОЦЕССОР</div><h3>CPU</h3><p>Жалпы мақсаттағы командаларды орындайды, жүйенің көптеген операцияларын басқарады.</p><div class="hardware-foot">Әмбебап есептеу</div></article>
+          <article class="hardware-card featured-hardware"><div class="hardware-symbol gpu">GPU</div><div class="hardware-tag">ГРАФИКАЛЫҚ ПРОЦЕССОР</div><h3>GPU</h3><p>Көптеген есептеуді қатар орындауға бейім. Бұл қасиет ЖИ модельдерін үйрету мен іске қосуда пайдалы.</p><div class="hardware-foot">Параллель есептеу</div></article>
+          <article class="hardware-card"><div class="hardware-symbol ram">RAM</div><div class="hardware-tag">ЖЕДЕЛ ЖАД</div><h3>RAM</h3><p>Қазіргі сәтте қолданылып жатқан бағдарламалар мен деректерді уақытша сақтайды.</p><div class="hardware-foot">Уақытша жұмыс кеңістігі</div></article>
+        </div>
+        <div class="comparison-wrap">
+          <div class="comparison-title"><div><div class="eyebrow">ҚЫСҚАША САЛЫСТЫРУ</div><h3>CPU мен GPU</h3></div><span class="table-hint">Негізгі айырмашылықтар</span></div>
+          <div class="table-scroll"><table><thead><tr><th>Сипаттама</th><th>CPU</th><th>GPU</th></tr></thead><tbody><tr><td>Негізгі қызметі</td><td>Әртүрлі командаларды орындау</td><td>Көптеген ұқсас есептеуді қатар орындау</td></tr><tr><td>Қолданылуы</td><td>ОЖ, бағдарламалар, логика</td><td>Графика, параллель есептеу, көптеген ЖИ міндеттері</td></tr><tr><td>ЖИ-дегі рөлі</td><td>Деректерді өңдеуге және модельді іске қосуға қатысады</td><td>Көптеген модельдердегі есептеуді жылдамдатуы мүмкін</td></tr></tbody></table></div>
+          <p class="table-note">GPU барлық жағдайда CPU-дан жақсы деген сөз емес. Таңдау тапсырмаға, модельге және құрылғыға байланысты.</p>
+        </div>
+        <div class="memory-row"><div class="memory-icon">▤</div><div><h3>Деректер қайда сақталады және өңделеді?</h3><p>RAM — уақытша жұмыс жады; SSD/HDD — файлдарды ұзақ уақыт сақтайтын құрылғылар. ЖИ сервисі интернет арқылы жұмыс істесе, есептеудің бір бөлігі қашықтағы серверлерде орындалуы мүмкін.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section-wrap content-section" id="trust">
+      <div class="section-heading">
+        <div><div class="eyebrow">03 / СЫНИ ОЙЛАУ</div><h2>ЖИ-ге <span class="gradient-text">сенуге бола ма?</span></h2></div>
+        <p>ЖИ пайдалы болуы мүмкін, бірақ оның жауабын әрдайым тексеру қажет.</p>
+      </div>
+      <div class="trust-grid">
+        <article class="trust-card trust-good"><div class="trust-label">✓ ДҰРЫС ӘРЕКЕТ</div><h3>Ақпаратты тексер</h3><p>ЖИ жауабындағы фактілерді оқулықпен, ресми сайтпен немесе бірнеше сенімді дереккөзбен салыстыр.</p></article>
+        <article class="trust-card trust-bad"><div class="trust-label">! ҚАТЕ ТӘСІЛ</div><h3>Жауапты бірден көшірме</h3><p>ЖИ сенімді естілетін, бірақ қате немесе ойдан шығарылған ақпарат ұсынуы мүмкін. Әсіресе сандар мен дереккөздерді тексер.</p></article>
+      </div>
+      <div class="mini-scenario">
+        <div class="scenario-number">МИСАЛ</div><div><h3>Жағдаят: ЖИ дереккөзді өзі ойлап тапты делік</h3><p>Сілтемені ашып көр. Авторын, жарияланған күнін және мәліметтің басқа сенімді дереккөздерде бар-жоғын тексер. Расталмаса, оны жұмыста факт ретінде пайдаланба.</p></div>
+      </div>
+    </section>
+
+    <section class="soft-section" id="safety">
+      <div class="section-wrap content-section">
+        <div class="section-heading">
+          <div><div class="eyebrow">04 / ЦИФРЛЫҚ ЖАУАПКЕРШІЛІК</div><h2>ЖИ-ді <span class="gradient-text">қауіпсіз пайдалану</span></h2></div>
+          <p>Қауіпсіздік — технологияны қолданудың міндетті бөлігі.</p>
+        </div>
+        <div class="safety-grid">
+          <article class="safety-card"><span class="safety-icon">⌑</span><h3>Жеке деректер</h3><p>Құпиясөз, мекенжай, телефон нөмірі және жеке құжаттарды ашық ЖИ сервистеріне енгізбе.</p></article>
+          <article class="safety-card"><span class="safety-icon">◎</span><h3>Ақпаратты тексеру</h3><p>Жауапты басқа сенімді дереккөздермен салыстыр. ЖИ-дің қатесі болуы мүмкін.</p></article>
+          <article class="safety-card"><span class="safety-icon">©</span><h3>Авторлық құқық</h3><p>Басқаның жұмысын өз жұмысың ретінде көрсетпе. Мұғалімнің ережесін сақтап, ЖИ қолданғаныңды қажет болса белгіле.</p></article>
+          <article class="safety-card"><span class="safety-icon">✎</span><h3>Өз ойыңды сақта</h3><p>ЖИ-ді көмекші ретінде пайдалан. Жауапты түсініп, өз сөзіңмен тексеріп, қорытынды жаса.</p></article>
+        </div>
+        <div class="prompt-panel">
+          <div><div class="eyebrow">ПАЙДАЛЫ ДАҒДЫ</div><h3>Дұрыс сұраныс (prompt) қалай жазылады?</h3><p>Нақты тапсырма, контекст, формат және шектеуді көрсет. Қажет болса, мысал сұра.</p></div>
+          <div class="prompt-example"><div class="prompt-label">МЫСАЛ СҰРАНЫС</div><p>«Мен 10-сынып оқушысымын. CPU мен GPU айырмашылығын қарапайым қазақ тілінде түсіндір. Үш мысал және салыстыру кестесін бер. Белгісіз ақпаратты ойдан қоспа».</p><button class="copy-button" id="copyPrompt">Сұранысты көшіру ⧉</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap content-section quiz-section" id="quiz">
+      <div class="section-heading">
+        <div><div class="eyebrow">05 / БІЛІМІҢДІ ТЕКСЕР</div><h2>Интерактивті <span class="gradient-text">тест</span></h2></div>
+        <p>10 сұраққа жауап бер. Соңында ұпайың мен түсіндірмесін көресің.</p>
+      </div>
+      <div class="quiz-box" id="quizBox">
+        <div class="quiz-top"><span class="quiz-count" id="quizCount">1 / 10 сұрақ</span><span class="quiz-score" id="quizProgressText">0% орындалды</span></div>
+        <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+        <div id="questionArea"></div>
+        <div class="quiz-controls"><button class="btn btn-ghost" id="prevQuestion" disabled>← Артқа</button><button class="btn btn-primary" id="nextQuestion">Келесі сұрақ →</button></div>
+        <div id="quizResult" class="quiz-result" hidden></div>
+      </div>
+    </section>
+
+    <section class="tools-section" id="tools">
+      <div class="section-wrap content-section">
+        <div class="section-heading">
+          <div><div class="eyebrow">06 / ПРАКТИКАЛЫҚ ҚҰРАЛДАР</div><h2>Сабаққа көмектесетін <span class="gradient-text">ЖИ құралдары</span></h2></div>
+          <p>Мақсатыңа сәйкес құралды таңда. Қолжетімділік пен мүмкіндіктері уақыт өте өзгеруі мүмкін.</p>
+        </div>
+        <div class="tools-grid">
+          <article class="tool-card"><div class="tool-logo logo-chat">✳</div><div class="tool-type">МӘТІН ЖӘНЕ ТҮСІНДІРУ</div><h3>ChatGPT</h3><p>Тақырыпты түсіндіру, жоспар құру, тест сұрақтарын дайындау және идеяларды талқылау.</p><div class="prompt-sample">Сұраныс: «Осы тақырыпты 3 мысалмен түсіндір».</div><a class="tool-link" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Ресми сайтты ашу ↗</a></article>
+          <article class="tool-card"><div class="tool-logo logo-gemini">✦</div><div class="tool-type">ЗЕРТТЕУ ЖӘНЕ ИДЕЯ</div><h3>Google Gemini</h3><p>Идеялар жинау, ақпаратпен жұмыс істеу және мәтінді талдауға көмектесу.</p><div class="prompt-sample">Сұраныс: «Осы тақырыпқа зерттеу сұрақтарын ұсын».</div><a class="tool-link" href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Ресми сайтты ашу ↗</a></article>
+          <article class="tool-card"><div class="tool-logo logo-canva">C</div><div class="tool-type">ДИЗАЙН ЖӘНЕ ПРЕЗЕНТАЦИЯ</div><h3>Canva</h3><p>Презентация, постер, инфографика және көрнекі оқу материалдарын жасау.</p><div class="prompt-sample">Міндет: «Тақырыпқа сай 5 слайдтық презентация жаса».</div><a class="tool-link" href="https://www.canva.com/" target="_blank" rel="noopener noreferrer">Ресми сайтты ашу ↗</a></article>
+          <article class="tool-card"><div class="tool-logo logo-notebook">N</div><div class="tool-type">ҚҰЖАТПЕН ЖҰМЫС</div><h3>NotebookLM</h3><p>Берілген материалды жинақтау, негізгі ойларды анықтау және құжат бойынша сұрақтар дайындау.</p><div class="prompt-sample">Міндет: «Жүктелген материалдың негізгі 5 ойын шығар».</div><a class="tool-link" href="https://notebooklm.google.com/" target="_blank" rel="noopener noreferrer">Ресми сайтты ашу ↗</a></article>
+          <article class="tool-card"><div class="tool-logo logo-quizlet">Q</div><div class="tool-type">ҚАЙТАЛАУ ЖӘНЕ ЖАТТАУ</div><h3>Quizlet</h3><p>Терминдер мен анықтамаларды карточкалар арқылы қайталау және білімді бекіту.</p><div class="prompt-sample">Міндет: «Тақырыптың негізгі терминдеріне карточка жаса».</div><a class="tool-link" href="https://quizlet.com/" target="_blank" rel="noopener noreferrer">Ресми сайтты ашу ↗</a></article>
+          <article class="tool-card"><div class="tool-logo logo-perplexity">⌕</div><div class="tool-type">АҚПАРАТ ІЗДЕУ</div><h3>Perplexity</h3><p>Тақырыпты зерттеу және жауаптармен бірге ұсынылған дереккөздерді қарау.</p><div class="prompt-sample">Міндет: «Тақырып бойынша сенімді дереккөздер тап».</div><a class="tool-link" href="https://www.perplexity.ai/" target="_blank" rel="noopener noreferrer">Ресми сайтты ашу ↗</a></article>
+        </div>
+        <div class="tools-disclaimer"><span>ⓘ</span><p>Ескерту: сервистердің тегін мүмкіндіктері, тіркелу талаптары және жас шектеулері әртүрлі болуы мүмкін. Қолданар алдында ресми шарттарын тексер. ЖИ жауабын тексеріп, жеке деректерді енгізбе.</p></div>
+      </div>
+    </section>
+
+    <section class="sources-section">
+      <div class="section-wrap sources-inner"><div><div class="eyebrow">ҚОСЫМША ОҚУ</div><h2>Ақпаратты қайдан тексеруге болады?</h2><p>ЖИ және компьютерлік технологиялар туралы мәліметті сенімді дереккөздермен салыстыр.</p></div><div class="source-links"><a href="https://www.nist.gov/artificial-intelligence" target="_blank" rel="noopener noreferrer">NIST — жасанды интеллект ↗</a><a href="https://www.ibm.com/think/topics/artificial-intelligence" target="_blank" rel="noopener noreferrer">IBM — AI туралы түсінік ↗</a><a href="https://www.intel.com/content/www/us/en/products/details/processors.html" target="_blank" rel="noopener noreferrer">Intel — процессорлар ↗</a><a href="https://www.nvidia.com/en-us/" target="_blank" rel="noopener noreferrer">NVIDIA — GPU технологиялары ↗</a></div></div>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">AI</span><span>әлемі<span class="brand-dot">.</span></span></a><p>10-сынып информатикасына арналған оқу жобасы</p><a href="#home" class="back-top">Жоғарыға ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
